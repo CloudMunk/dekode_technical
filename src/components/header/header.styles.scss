@@ -17,12 +17,19 @@ $breakpoint-mobile: 799px;
         display: flex;
         flex-direction: row;
         padding: 0px;
-
+        justify-content: space-evenly;
         position: absolute;
         width: 501px;
         height: 40px;
         left: 120px;
         top: 24px;
+    }
+    .logo {
+       
+        left: 0%;
+        right: 80.82%;
+        top: 12.23%;
+        bottom: 7.35%;
     }
     .circles {
         position: static;
@@ -70,6 +77,73 @@ $breakpoint-mobile: 799px;
         align-self: center;
         margin: 64px 0px;
     }
+    .triangles {
+        position: static;
+        width: 85px;
+        height: 24px;
+        left: 416px;
+        top: 8px;
+
+        /* Navigasjon desktop */
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+        /* identical to box height, or 120% */
+
+        /* Black */
+        color: #262626;
+
+        /* Inside Auto Layout */
+        flex: none;
+        order: 3;
+        align-self: center;
+        margin: 64px 0px;
+    }
+    .searchBox {
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+        
+        position: absolute;
+        width: 97px;
+        height: 24px;
+        right: 120px;
+        top: 24px;        
+    }
+    .searchText {
+        position: static;
+        width: 65px;
+        height: 24px;
+        left: 0px;
+        top: 0px;
+
+        /* Navigasjon desktop */
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+        /* identical to box height, or 120% */
+
+        /* Black */
+        color: #262626;
+
+        /* Inside Auto Layout */
+        flex: none;
+        order: 0;
+        align-self: center;
+        margin: 8px 0px;
+    }
+    // .searchVector {
+    //     position: absolute;
+    //     left: 13.56%;
+    //     right: 13.56%;
+    //     top: 13.56%;
+    //     bottom: 13.56%;
+
+    // }
 }
 
 
