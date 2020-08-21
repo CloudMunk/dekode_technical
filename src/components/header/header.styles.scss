@@ -1,7 +1,11 @@
 
 $breakpoint-bigscreen: 4000px;
 $breakpoint-mobile: 799px;
-
+@font-face {
+    font-family: 'CircularStdBook';
+    src: url(/fonts/CircularStdBook.woff) format('woff'),
+         url(/fonts/CircularStdBook.woff2) format('woff2'),
+    }
 // Desktop
 @media (min-width: 1200px) and (max-width: $breakpoint-bigscreen) {
     .header {
@@ -40,7 +44,7 @@ $breakpoint-mobile: 799px;
 
         /* Navigasjon desktop */
 
-        font-family: Circular Std;
+        font-family: 'CircularStdBook';
         font-style: normal;
         font-weight: bold;
         font-size: 20px;
@@ -63,7 +67,7 @@ $breakpoint-mobile: 799px;
         top: 8px;
 
         /* Navigasjon desktop */
-        font-family: Circular Std;
+        font-family: 'CircularStdBook';
         font-style: normal;
         font-weight: bold;
         font-size: 20px;
@@ -85,7 +89,7 @@ $breakpoint-mobile: 799px;
         top: 8px;
 
         /* Navigasjon desktop */
-        font-family: Circular Std;
+        font-family: 'CircularStdBook';
         font-style: normal;
         font-weight: bold;
         font-size: 20px;
@@ -120,7 +124,7 @@ $breakpoint-mobile: 799px;
         top: 0px;
 
         /* Navigasjon desktop */
-        font-family: 'Circular Std';
+        font-family: 'CircularStdBook';
         font-style: normal;
         font-weight: bold;
         font-size: 20px;
@@ -136,14 +140,14 @@ $breakpoint-mobile: 799px;
         align-self: center;
         margin: 8px 0px;
     }
-    // .searchVector {
-    //     position: absolute;
-    //     left: 13.56%;
-    //     right: 13.56%;
-    //     top: 13.56%;
-    //     bottom: 13.56%;
+    .searchVector {
+        position: absolute;
+        left: 75%;
+        // right: 13.56%;
+        top: 13.56%;
+        bottom: 13.56%;
 
-    // }
+    }
 }
 
 

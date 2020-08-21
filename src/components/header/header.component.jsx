@@ -26,7 +26,7 @@ const Header = () => (
                 <h2 className="searchText">
                     Search
                 </h2>
-                <img src={Search} className="searchVector" alt="Search logo Vector image"/>
+                <img src={Search} className="searchVector" alt="Search logo Vector"/>
             </div>
     </div>
 )
