@@ -1,20 +1,286 @@
-$breakpoint-tablet: 1199px;
 $breakpoint-bigscreen: 4000px;
 $breakpoint-mobile: 799px;
-
+@font-face {
+   font-family: 'CircularStdBook';
+   src: url(/fonts/CircularStdBook.woff) format('woff'),
+        url(/fonts/CircularStdBook.woff2) format('woff2'),
+   }
 // Desktop
 @media (min-width: 1200px) and (max-width: $breakpoint-bigscreen) {
- .homepageContainer {
-    display: flex;
-    flex-direction: column;
-    padding: 0px;
-    
-    position: absolute;
-    width: 1440px;
-    height: 3012px;
-    left: 0px;
-    top: 104px;
- }
+   
+   .autoLayout {
+      display: flex;
+      flex-direction: column;
+      padding: 0px;
+
+      position: absolute;
+      width: 1440px;
+      height: 3012px;
+      left: 0px;
+      top: 104px;
+   }
+   .frame13 {
+      /* Auto Layout */
+      display: flex;
+      flex-direction: row;
+      padding: 0px;
+      position: static;
+      width: 307px;
+      height: 24px;
+      left: calc(50% - 307px/2);
+      top: calc(50% - 24px/2 - 1494px);
+
+      /* Inside Auto Layout */
+      flex: none;
+      order: 0;
+      align-self: center;
+      margin: 0px 48px;
+   }
+   .teft {
+      position: static;
+      width: 34px;
+      height: 24px;
+      left: 0px;
+      top: 0px;
+
+      /* Navigasjon desktop */
+      font-family: 'CircularStdBook';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 24px;
+      /* identical to box height, or 120% */
+
+
+      /* Main */
+      color: #8500D7;
+
+      /* Inside Auto Layout */
+      flex: none;
+      order: 0;
+      align-self: center;
+      margin: 8px 0px;
+   }
+   .purpleCircles {
+      position: static;
+      width: 127px;
+      height: 24px;
+      left: 180px;
+      top: 0px;
+
+      /* Navigasjon desktop */
+      font-family: 'CircularStdBook';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 24px;
+      /* identical to box height, or 120% */
+
+
+      /* Black */
+      color: #262626;
+
+      /* Inside Auto Layout */
+      flex: none;
+      order: 4;
+      align-self: center;
+      margin: 8px 0px;
+   }
+   .circlesHome {
+      position: static;
+      width: 66px;
+      height: 24px;
+      left: 74px;
+      top: 0px;
+
+      /* Navigasjon desktop */
+
+      font-family: 'CircularStdBook';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 24px;
+      /* identical to box height, or 120% */
+      /* Main */
+      color: #8500D7;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 2;
+      align-self: center;
+      margin: 8px 0px;
+   }
+   .forwardFirst {
+      position: static;
+      left: 42px;
+      top: 0px;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 1;
+      align-self: center;
+      margin: 8px 10px;
+   }
+   .forwardSecond {
+      position: static;
+      left: 148px;
+      top: 0px;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 3;
+      align-self: center;
+      margin: 8px 10px;
+   }
+   .pageHeader {
+      position: static;
+      width: 1200px;
+      height: 64px;
+      left: 120px;
+      top: 72px;
+      /* H1 desktop */
+      font-family: 'CircularStdBook';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 56px;
+      line-height: 64px;
+      /* identical to box height, or 114% */
+      text-align: center;
+      /* Black */
+      color: #262626;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 1;
+      align-self: center;
+      margin: 50px 48px;
+   }
+   .purpleAssociated {
+      position: static;
+      width: 1200px;
+      height: 80px;
+      left: 120px;
+      top: 184px;
+
+      /* Ingress desktop */
+      font-family: 'CircularStdBook';
+      font-style: italic;
+      font-weight: normal;
+      font-size: 32px;
+      line-height: 40px;
+      /* or 125% */
+      text-align: center;
+      /* Black */
+      color: #262626;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 2;
+      align-self: center;
+      margin: 0px 48px;
+   }
+   .frame26 {
+      display: flex;
+      flex-direction: column;
+      padding: 0px;
+
+      position: static;
+      width: 472px;
+      height: 88px;
+      left: 104px;
+      top: 0px;
+
+
+      /* Inside Auto Layout */
+
+      flex: none;
+      order: 1;
+      align-self: center;
+      margin: 16px 0px;
+   }
+   .frame28 {
+      display: flex;
+      flex-direction: row;
+      padding: 0px;
+      
+      position: static;
+      width: 576px;
+      height: 88px;
+      left: 432px;
+      top: 312px;
+      
+      
+      /* Inside Auto Layout */
+      
+      flex: none;
+      order: 3;
+      align-self: center;
+      margin: 0px 48px;
+   }
+   .janeDoe { 
+      position: static;
+      width: 88px;
+      height: 88px;
+      left: 0px;
+      top: 0px;
+      border-radius: 800px;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 0;
+      align-self: center;
+      margin: 16px 0px;
+   }
+   .janeDoeName {
+      position: static;
+      width: 85px;
+      height: 32px;
+      left: 0px;
+      top: 0px;
+
+      /* Paragraph desktop */
+
+      font-family: Circular Std;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 32px;
+      /* identical to box height, or 160% */
+
+
+      /* Main */
+
+      color: #8500D7;
+
+      /* Inside Auto Layout */
+
+      flex: none;
+      order: 0;
+      align-self: flex-start;
+      margin: 0px 8px;
+   }
+   .metatekstDesktop {
+      position: static;
+      width: 472px;
+      height: 16px;
+      left: 0px;
+      top: 40px;
+
+      /* Metatekst desktop */
+
+      font-family: Circular Std;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 16px;
+      /* identical to box height, or 133% */
+
+
+      /* Black */
+
+      color: #262626;
+
+      /* Inside Auto Layout */
+
+      flex: none;
+      order: 1;
+      align-self: center;
+      margin: 0px 8px;
+   }
 }
 
 
