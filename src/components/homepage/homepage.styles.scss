@@ -1,0 +1,34 @@
+$breakpoint-tablet: 1199px;
+$breakpoint-bigscreen: 4000px;
+$breakpoint-mobile: 799px;
+
+// Desktop
+@media (min-width: 1200px) and (max-width: $breakpoint-bigscreen) {
+ .homepageContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    
+    position: absolute;
+    width: 1440px;
+    height: 3012px;
+    left: 0px;
+    top: 104px;
+ }
+}
+
+
+
+
+
+
+
+
+
+// ---------------------------------------------------------------------
+
+
+// Mobile
+@media (min-width: 200px) and (max-width: $breakpoint-mobile) {
+
+}
