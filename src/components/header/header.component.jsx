@@ -6,7 +6,18 @@ import './header.styles.scss'
 
 const Header = () => (
     <div className="header">
-        <img src={Logo} alt="Teft logo" className="logo" />
+        <div className="subMenu">
+            {/* Logo */}
+            <img src={Logo} alt="Teft logo" className="logo" />
+            {/* SubMenu items */}
+            <h2 className="circles">
+                Circles
+            </h2>
+            <h2>
+                Squares
+            </h2>
+        </div>
+        
     </div>
 )
 
