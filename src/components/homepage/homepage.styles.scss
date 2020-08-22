@@ -377,7 +377,7 @@ $breakpoint-mobile: 799px;
       position: absolute;
       width: 600px;
       height: 160px;
-      left: -22px;
+      left: -24px;
       top: 184px;
       z-index: 1;
       /* White */
@@ -577,7 +577,6 @@ $breakpoint-mobile: 799px;
       margin: 0px 12px;
    }
    .frame23 {
-      /* Auto Layout */
       display: flex;
       flex-direction: row;
       padding: 0px;
@@ -591,6 +590,27 @@ $breakpoint-mobile: 799px;
       order: 1;
       align-self: flex-start;
       margin: 0px 12px;
+   }
+   .headerFrame23 {
+      position: static;
+      width: 332px;
+      height: 40px;
+      left: 0px;
+      top: 0px;
+      /* H2 desktop */
+      font-family: 'Circular Std';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 40px;
+      /* identical to box height, or 125% */
+      /* Main */
+      color: #8500D7;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 1;
+      align-self: center;
+      margin: 12px 0px;
    }
    .subFrame23 {
       position: static;

@@ -98,6 +98,12 @@ const Homepage = () => (
                 <img src={arrowLeft} alt="" className="leftVector"/>
                 <div className="frame18">
                     <img src={stor1} alt="" className="stor1"/>
+
+                    <div className="frame23">
+                        <h2 className="headerFrame23">
+                            Lorem ipsum
+                        </h2>
+                    </div>
                 </div>
             </div>
         </div>
