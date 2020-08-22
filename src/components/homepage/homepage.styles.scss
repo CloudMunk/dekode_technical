@@ -10,7 +10,7 @@ $breakpoint-mobile: 799px;
 //    src: url(/fonts/RobotoSlabThin.tff) format('tff')
 // }
 // Desktop
-@media (min-width: 1200px) and (max-width: $breakpoint-bigscreen) {
+@media (min-width: 800px) and (max-width: $breakpoint-bigscreen) {
    .frame14 {
       display: flex;
       flex-direction: column;
@@ -708,14 +708,14 @@ $breakpoint-mobile: 799px;
       align-self: center;
       margin: 48px 0px;
    }
-   .frame29 {
+   .frame29Desktop {
       display: flex;
       flex-direction: column;
       padding: 0px;
-      position: static;
+      position: absolute;
       width: 568px;
       height: 128px;
-      left: 436px;
+      left: 416px;
       top: 2340px;
       /* Inside Auto Layout */
       flex: none;
@@ -732,7 +732,7 @@ $breakpoint-mobile: 799px;
       /* H2 desktop */
       font-family: 'Circular Std';
       font-style: normal;
-      font-weight: 500;
+      font-weight: 600;
       font-size: 32px;
       line-height: 40px;
       /* identical to box height, or 125% */
@@ -744,6 +744,69 @@ $breakpoint-mobile: 799px;
       align-self: center;
       margin: 0px 24px;
    }
+   .teftParagraph {
+      position: static;
+      width: 568px;
+      height: 64px;
+      left: 0px;
+      top: 64px;
+      /* Paragraph desktop */
+      font-family: 'Circular Std';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 32px;
+      /* or 160% */
+      /* Black */
+      color: #262626;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 1;
+      align-self: center;
+      margin: 20px 24px;
+   }
+   .btnTeft {
+      display: flex;
+      flex-direction: row;
+      padding: 12px 24px;
+      position: absolute;
+      width: 121px;
+      height: 48px;
+      left: 640px;
+      top: 2516px;
+      /* White */
+      background: #FFFFFF;
+      /* Main */
+      border: 2px solid #8500D7;
+      box-sizing: border-box;
+      border-radius: 8px;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 10;
+      align-self: center;
+      margin: 0px 48px;
+   }
+   .whyTeft {
+      position: static;
+      width: 73px;
+      height: 24px;
+      left: 24px;
+      top: 12px;
+      font-family: Circular Std;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      /* identical to box height, or 150% */
+      /* Black */
+      color: #262626;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 0;
+      align-self: center;
+      margin: 0px 0px;
+   }
+   
 }
 
 

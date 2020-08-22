@@ -1,0 +1,179 @@
+$breakpoint-bigscreen: 4000px;
+$breakpoint-mobile: 799px;
+@font-face {
+    font-family: 'Circular Std';
+    src: url(/fonts/CircularStdBook.woff) format('woff'),
+         url(/fonts/CircularStdBook.woff2) format('woff2'),
+ }
+
+
+// Desktop
+@media (min-width: 1200px) and (max-width: $breakpoint-bigscreen) {
+    .footerDesktop {
+        display: flex;
+        flex-direction: column;
+        padding: 48px 0px;
+        position: absolute;
+        width: 1440px;
+        height: 400px;
+        left: -48px;
+        top: 2532px;
+        /* White */
+        background: #FFFFFF;
+        box-shadow: 4px 0px 4px rgba(145, 158, 167, 0.25);
+        /* Inside Auto Layout */
+        flex: none;
+        order: 11;
+        align-self: center;
+        margin: 0px 48px;
+        margin-top: 175px;
+    }
+    .logoFooter {
+        position: static;
+        width: 83px;
+        height: 40px;
+        left: 120px;
+        top: 48px;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 0;
+        align-self: flex-start;
+        margin: 0px 140px;
+        margin-bottom: 55px;
+    }
+    .frame31footer {
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+        position: static;
+        width: 1200px;
+        height: 216px;
+        left: 120px;
+        top: 136px;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 1;
+        align-self: center;
+        margin: 0px 48px;
+    }
+    .frame29Footer {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        position: static;
+        width: 368px;
+        height: 216px;
+        left: 0px;
+        top: 0px;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 0;
+        align-self: center;
+        margin: 48px 0px;
+    }
+    .dekodeAS {
+        position: static;
+        width: 368px;
+        height: 16px;
+        left: 0px;
+        top: 0px;
+        /* Metatekst desktop */
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        /* identical to box height, or 133% */
+        /* Black */
+        color: #262626;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 0;
+        align-self: flex-start;
+        margin: 15px 24px;
+    }
+    .telefonFooter {
+        position: static;
+        width: 368px;
+        height: 16px;
+        left: 0px;
+        top: 40px;
+        /* Metatekst desktop */
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        /* identical to box height, or 133% */
+        /* Black */
+        color: #262626;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 1;
+        align-self: flex-start;
+        margin: 15px 24px;
+    }
+    .epostFooter {
+        position: static;
+        width: 368px;
+        height: 16px;
+        left: 0px;
+        top: 80px;
+        /* Metatekst desktop */
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        /* identical to box height, or 133% */
+        /* Black */
+        color: #262626;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 2;
+        align-self: flex-start;
+        margin: 25px 24px;
+    }
+    .adresseFooter {
+        position: static;
+        width: 368px;
+        height: 16px;
+        left: 0px;
+        top: 160px;
+        /* Metatekst desktop */
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        /* identical to box height, or 133% */
+        /* Black */
+        color: #262626;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 4;
+        align-self: flex-start;
+        margin: 25px 24px;
+    }
+    .postBoksFooter {
+        position: static;
+        width: 368px;
+        height: 16px;
+        left: 0px;
+        top: 200px;
+        /* Metatekst desktop */
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        /* identical to box height, or 133% */
+        /* Black */
+        color: #262626;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 5;
+        align-self: flex-start;
+        margin: 0px 24px;
+    }
+}

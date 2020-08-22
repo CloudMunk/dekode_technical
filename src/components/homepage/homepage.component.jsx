@@ -147,9 +147,19 @@ const Homepage = () => (
                 <img src={rightArrow} alt="" className="rightVector"/>
             </div>
         </div>
-        <div className="frame29">
-
+        {/* --------------------- FRAME 29 ---------------------------------------------- */}
+        <div className="frame29Desktop">
+            <h2 className="Teft">
+                Teft?
+            </h2>
+            <p className="teftParagraph">
+                As a result, when violet light strikes the eye, the S-cone is stimulated strongly and 
+                the L-cone is stimulated weakly.
+            </p>
         </div>
+        <button className="btnTeft">
+            <p className="whyTeft">Why teft?</p>
+        </button>
     </div>
 )
 
