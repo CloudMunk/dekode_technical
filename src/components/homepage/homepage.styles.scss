@@ -5,10 +5,10 @@ $breakpoint-mobile: 799px;
    src: url(/fonts/CircularStdBook.woff) format('woff'),
         url(/fonts/CircularStdBook.woff2) format('woff2'),
 }
-@font-face {
-   font-family: 'Roboto Slab';
-   src: url(/fonts/RobotoSlabThin.tff) format('tff')
-}
+// @font-face {
+//    font-family: 'Roboto Slab';
+//    src: url(/fonts/RobotoSlabThin.tff) format('tff')
+// }
 // Desktop
 @media (min-width: 1200px) and (max-width: $breakpoint-bigscreen) {
    .frame14 {
@@ -22,7 +22,6 @@ $breakpoint-mobile: 799px;
       top: 104px;
    }
    .frame13 {
-      /* Auto Layout */
       display: flex;
       flex-direction: row;
       padding: 0px;
@@ -52,56 +51,29 @@ $breakpoint-mobile: 799px;
       font-size: 20px;
       line-height: 24px;
       /* identical to box height, or 120% */
+
       /* Main */
       color: #8500D7;
+
       /* Inside Auto Layout */
       flex: none;
       order: 0;
       align-self: center;
       margin: 8px 0px;
    }
-   .forwardFirst {
+   .firstForward {
       position: static;
+      width: 12px;
+      height: 12px;
       left: 42px;
       top: 0px;
       /* Inside Auto Layout */
       flex: none;
       order: 1;
       align-self: center;
-      margin: 8px 10px;
+      margin: 8px 8px;
    }
-   .purpleCircles {
-      position: static;
-      width: 127px;
-      height: 24px;
-      left: 180px;
-      top: 0px;
-      /* Navigasjon desktop */
-      font-family: 'Circular Std';
-      font-style: normal;
-      font-weight: bold;
-      font-size: 20px;
-      line-height: 24px;
-      /* identical to box height, or 120% */
-      /* Black */
-      color: #262626;
-      /* Inside Auto Layout */
-      flex: none;
-      order: 4;
-      align-self: center;
-      margin: 8px 0px;
-   }
-   .forwardSecond {
-      position: static;
-      left: 148px;
-      top: 0px;
-      /* Inside Auto Layout */
-      flex: none;
-      order: 3;
-      align-self: center;
-      margin: 8px 10px;
-   }
-   .circlesHome {
+   .circles {
       position: static;
       width: 66px;
       height: 24px;
@@ -122,6 +94,41 @@ $breakpoint-mobile: 799px;
       align-self: center;
       margin: 8px 0px;
    }
+   .secondForward {
+      position: static;
+      width: 12px;
+      height: 12px;
+      left: 148px;
+      top: 0px;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 3;
+      align-self: center;
+      margin: 8px 8px;
+   }
+   .purpleCircles {
+      position: static;
+      width: 127px;
+      height: 24px;
+      left: 180px;
+      top: 0px;
+
+      /* Navigasjon desktop */
+      font-family: 'Circular Std';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 24px;
+      /* identical to box height, or 120% */
+      /* Black */
+      color: #262626;
+
+      /* Inside Auto Layout */
+      flex: none;
+      order: 4;
+      align-self: center;
+      margin: 8px 0px;
+   }
    .pageHeader {
       position: static;
       width: 1200px;
@@ -131,7 +138,7 @@ $breakpoint-mobile: 799px;
       /* H1 desktop */
       font-family: 'Circular Std';
       font-style: normal;
-      font-weight: 500;
+      font-weight: 600;
       font-size: 56px;
       line-height: 64px;
       /* identical to box height, or 114% */
@@ -142,7 +149,8 @@ $breakpoint-mobile: 799px;
       flex: none;
       order: 1;
       align-self: center;
-      margin: 50px 48px;
+      margin: 0px 48px;
+      margin-top: 47px !important;
    }
    .purpleAssociated {
       position: static;
@@ -164,7 +172,7 @@ $breakpoint-mobile: 799px;
       flex: none;
       order: 2;
       align-self: center;
-      margin: 0px 48px;
+      margin: 65px 48px;
    }
    .frame28 {
       display: flex;
@@ -179,7 +187,20 @@ $breakpoint-mobile: 799px;
       flex: none;
       order: 3;
       align-self: center;
-      margin: 80px 48px;
+      margin: 0px 48px;
+   }
+   .janeDoeProfile {
+      position: static;
+      width: 88px;
+      height: 88px;
+      left: 0px;
+      top: 0px;
+      border-radius: 800px;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 0;
+      align-self: center;
+      margin: 16px 0px;
    }
    .frame26 {
       display: flex;
@@ -194,23 +215,9 @@ $breakpoint-mobile: 799px;
       flex: none;
       order: 1;
       align-self: center;
-      margin: 16px 8px;
+      margin: 16px 16px;
    }
-   
-   .janeDoe { 
-      position: static;
-      width: 88px;
-      height: 88px;
-      left: 0px;
-      top: 0px;
-      border-radius: 800px;
-      /* Inside Auto Layout */
-      flex: none;
-      order: 0;
-      align-self: center;
-      margin: 16px 0px;
-   }
-   .janeDoeName {
+   .janeDoe {
       position: static;
       width: 85px;
       height: 32px;
@@ -229,11 +236,11 @@ $breakpoint-mobile: 799px;
       flex: none;
       order: 0;
       align-self: flex-start;
-      margin: 0px 14px;
+      margin: 0px 8px;
    }
-   .metatekstDesktop {
+   .projectManager {
       position: static;
-      width: 445px;
+      width: 472px;
       height: 16px;
       left: 0px;
       top: 40px;
@@ -249,13 +256,14 @@ $breakpoint-mobile: 799px;
       /* Inside Auto Layout */
       flex: none;
       order: 1;
-      align-self: center;
-      margin: 8px 20px;
+      align-self: flex-start;
+      margin: 11px 8px;
    }
    .frame27 {
       display: flex;
       flex-direction: row;
       padding: 0px;
+
       position: static;
       width: 104px;
       height: 24px;
@@ -265,43 +273,59 @@ $breakpoint-mobile: 799px;
       flex: none;
       order: 2;
       align-self: flex-start;
-      margin: 10px 8px;
+      margin: 0px 8px;
    }
    .twitter {
       position: static;
-      width: 18px;
-      height: 18px;
+      width: 16px;
+      height: 16px;
       left: 0px;
       top: 0px;
       /* Inside Auto Layout */
       flex: none;
       order: 0;
       align-self: center;
-      margin: 16px 10px;
+      margin-right: 12px;
    }
    .instagram {
       position: static;
-      width: 18px;
-      height: 18px;
+      width: 16px;
+      height: 16px;
       left: 40px;
       top: 0px;
       /* Inside Auto Layout */
       flex: none;
       order: 1;
       align-self: center;
-      margin: 16px 10px;
+      margin: 0px 12px;
    }
    .facebook {
       position: static;
-      width: 18px;
-      height: 18px;
+      width: 16px;
+      height: 16px;
       left: 80px;
       top: 0px;
       /* Inside Auto Layout */
       flex: none;
       order: 2;
       align-self: center;
-      margin: 16px 10px;
+      margin: 0px 12px;
+   }
+   .frame17 {
+      /* Auto Layout */
+      display: flex;
+      flex-direction: column;
+      padding: 0px;
+      position: static;
+      width: 1200px;
+      height: 616px;
+      left: 432px;
+      top: 656px;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 5;
+      align-self: center;
+      margin: 0px 48px;
    }
    .purpleParagraph {
       position: static;
@@ -323,50 +347,45 @@ $breakpoint-mobile: 799px;
       order: 4;
       align-self: center;
       margin: 0px 48px;
-   }
-   .frame17 {
-      display: flex;
-      flex-direction: column;
-      padding: 0px;
-      position: static;
-      width: 1200px;
-      height: 616px;
-      left: 0px;
-      top: 656px;
-      /* Inside Auto Layout */
-      flex: none;
-      order: 5;
-      align-self: flex-start;
-      margin: 0px 48px;
+      margin-top: 50px;
    }
    .group470 {
-      position: static;
+      position: absolute;
       width: 1200px;
       height: 560px;
       left: 0px;
-      top: 0px;
+      top: 688px;
       /* Inside Auto Layout */
       flex: none;
       order: 0;
       align-self: center;
       margin: 0px 24px;
    }
+   .ocean1 {
+      position: absolute;
+      width: 888px;
+      height: 560px;
+      left: 240px;
+      top: 0px;
+      border-radius: 0px 8px 8px 0px;
+   }
    .frame16 {
       display: flex;
       flex-direction: row;
-      // padding: 48px;
+      justify-content: center;
+      padding: 0px;
       position: absolute;
       width: 600px;
       height: 160px;
-      left: 0px;
-      top: 900px;
+      left: -22px;
+      top: 184px;
+      z-index: 1;
       /* White */
       background: #FFFFFF;
       box-shadow: 0px 4px 8px rgba(145, 158, 167, 0.32);
       border-radius: 8px 0px 0px 8px;
-      z-index: 1;
    }
-   .frame16Paragraph {
+   .sitatDesktop {
       position: static;
       width: 504px;
       height: 64px;
@@ -374,7 +393,7 @@ $breakpoint-mobile: 799px;
       top: 48px;
       /* Sitat desktop */
       font-family: 'Roboto Slab';
-      font-style: thin;
+      font-style: normal;
       font-weight: 300;
       font-size: 24px;
       line-height: 32px;
@@ -388,22 +407,14 @@ $breakpoint-mobile: 799px;
       align-self: center;
       margin: 10px 0px;
    }
-   .ocean1 {
-      position: absolute;
-      width: 888px;
-      height: 560px;
-      left: 312px;
-      top: 800px;
-      border-radius: 0px 8px 8px 0px;
-   }
    .optics {
-      position: static;
+      position: absolute;
       width: 568px;
       height: 32px;
-      left: 316px;
-      top: 584px;
+      left: 245px;
+      top: 1275px;
       /* Metatekst desktop */
-      font-family: 'CircularStdBook';
+      font-family: 'Circular Std';
       font-style: normal;
       font-weight: normal;
       font-size: 12px;
@@ -416,6 +427,212 @@ $breakpoint-mobile: 799px;
       order: 1;
       align-self: center;
       margin: 0px 24px;
+   }
+   .humans {
+      position: absolute;
+      width: 568px;
+      height: 128px;
+      left: 390px;
+      top: 1320px;
+      /* Paragraph desktop */
+      font-family: 'Circular Std';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 32px;
+      /* or 160% */
+      /* Black */
+      color: #262626;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 6;
+      align-self: center;
+      margin: 0px 48px;
+   }
+   .frame21 {
+      /* Auto Layout */
+      display: flex;
+      flex-direction: column;
+      padding: 0px;
+      position: absolute;
+      width: 568px;
+      height: 224px;
+      left: 390px;
+      top: 1496px;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 7;
+      align-self: center;
+      margin: 0px 48px;
+   }
+   .asResult {
+      position: static;
+      width: 568px;
+      height: 40px;
+      left: 0px;
+      top: 0px;
+      /* H2 desktop */
+      font-family: 'Circular Std';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 40px;
+      /* identical to box height, or 125% */
+      /* Black */
+      color: #262626;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 0;
+      align-self: center;
+      margin: 22px 24px;
+   }
+   .asResultParagraph {
+      position: static;
+      width: 568px;
+      height: 160px;
+      left: 0px;
+      top: 64px;
+      /* Paragraph desktop */
+      font-family: 'Circular Std';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 32px;
+      /* or 160% */
+      /* Black */
+      color: #262626;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 1;
+      align-self: center;
+      margin: 10px 24px;
+   }
+   .frame25 {
+      display: flex;
+      flex-direction: column;
+      padding: 48px;
+      position: absolute;
+      width: 1440px;
+      height: 524px;
+      left: 0px;
+      top: 1768px;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 8;
+      align-self: center;
+      margin: 0px 48px;
+   }
+   .frame20 {
+      display: flex;
+      flex-direction: row;
+      padding: 0px;
+      position: static;
+      width: 1344px;
+      height: 428px;
+      left: 48px;
+      top: 48px;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 0;
+      align-self: center;
+      margin: 0px 48px;
+   }
+   .leftVector {
+      position: static;
+      width: 24px;
+      height: 24px;
+      left: 0px;
+      top: 202px;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 0;
+      align-self: center;
+      margin: 48px 0px;
+   }
+   .frame18 {
+      display: flex;
+      flex-direction: column;
+      padding: 0px;
+      position: static;
+      width: 368px;
+      height: 428px;
+      left: 72px;
+      top: 0px;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 1;
+      align-self: center;
+      margin: 48px 0px;
+   }
+   .stor1 {
+      position: static;
+      width: 264px;
+      height: 264px;
+      left: 52px;
+      top: 0px;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 0;
+      align-self: center;
+      margin: 0px 12px;
+   }
+   .frame23 {
+      /* Auto Layout */
+      display: flex;
+      flex-direction: row;
+      padding: 0px;
+      position: static;
+      width: 332px;
+      height: 40px;
+      left: 0px;
+      top: 276px;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 1;
+      align-self: flex-start;
+      margin: 0px 12px;
+   }
+   .subFrame23 {
+      position: static;
+      width: 82px;
+      height: 16px;
+      left: 0px;
+      top: 328px;
+      /* Metatekst desktop */
+      font-family: 'Circular Std';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 16px;
+      /* identical to box height, or 133% */
+      /* dark grey */
+      color: #707070;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 2;
+      align-self: flex-start;
+      margin: 0px 12px;
+   }
+   .paragraphFrame23 {
+      position: static;
+      width: 368px;
+      height: 72px;
+      left: 0px;
+      top: 356px;
+      /* Korttekster desktop */
+      font-family: 'Circular Std';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      /* or 150% */
+      /* Black */
+      color: #262626;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 3;
+      align-self: flex-start;
+      margin: 0px 12px;
    }
 }
 
