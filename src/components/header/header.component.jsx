@@ -2,11 +2,13 @@ import React from 'react'
 
 import Logo from '../../assets/Logo.svg'
 import Search from '../../assets/searchBlack.svg'
+import HamburgerMobile from '../../assets/hamburgerMobile.svg'
 
 import './header.styles.scss'
 
 const Header = () => (
-    <div className="header">
+    <div>
+        <div className="header">
         {/* SUB-MENU */}
         <div className="subMenu">
             {/* Logo */}
@@ -28,6 +30,14 @@ const Header = () => (
                 </h2>
                 <img src={Search} className="searchVector" alt="Search logo Vector"/>
             </div>
+    </div>
+        <div className="headerMobile">
+            <div className="rectangleMobile">
+                <img src={HamburgerMobile} alt="" className="hamburgerMobile"/>
+                <img src={Logo} alt="" className="logoHeaderMobile"/>
+                <img src={Search} alt="" className="searchHeaderMobile"/>
+            </div>
+        </div>
     </div>
 )
 

@@ -1,0 +1,62 @@
+$breakpoint-bigscreen: 4000px;
+$breakpoint-mobile: 420px;
+
+  /*  Desktop */
+@media (min-width: 800px) and (max-width: $breakpoint-bigscreen) {
+  .desktopContainer {
+    position: relative;
+    width: 1440px;
+    height: 3116px;
+    /* White */
+    background: #FFFFFF;
+  }
+  body {
+    margin: 0;
+    margin-left: 175px;
+    margin-right: 175px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    z-index: -1;
+    background-color:  black;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+}
+
+
+// Mobile
+@media (min-width: 200px) and (max-width: $breakpoint-mobile) {
+  .desktopContainer {
+    position: relative;
+    width: 416px;
+    height: 3144px;
+    /* Hvit */
+    background: #FFFFFF;
+  }
+  body {
+    margin: 0;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    z-index: -1;
+
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+}
+
+
+
+

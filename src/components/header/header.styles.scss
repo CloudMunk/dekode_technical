@@ -158,5 +158,46 @@ $breakpoint-mobile: 799px;
 
 // Mobile
 @media (min-width: 200px) and (max-width: $breakpoint-mobile) {
+    .header {
+        display: none;
+    }
 
+    .headerMobile {
+        position: absolute;
+        width: 416px;
+        height: 72px;
+        left: 0px;
+        top: 0px;
+    }
+    .rectangleMobile {
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+        /* White */
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(145, 158, 167, 0.25);
+    }
+    .hamburgerMobile {
+        position: absolute;
+        left: 12.5%;
+        right: 12.5%;
+        top: 25%;
+        bottom: 25%;
+    }
+    .logoHeaderMobile {
+        position: absolute;
+        width: 66.4px;
+        height: 32px;
+        left: 175px;
+        top: 10px;
+    }
+    .searchHeaderMobile {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 368px;
+        top: 16px;
+    }
 }

@@ -1,0 +1,27 @@
+$breakpoint-bigscreen: 4000px;
+$breakpoint-mobile: 420px;
+
+  /*  Desktop */
+@media (min-width: 800px) and (max-width: $breakpoint-bigscreen) {
+  .desktopContainer {
+    position: relative;
+    width: 1440px;
+    height: 3116px;
+    /* White */
+    background: #FFFFFF;
+  }
+}
+
+
+// Mobile
+@media (min-width: 200px) and (max-width: $breakpoint-mobile) {
+  .desktopContainer {
+    position: relative;
+    width: 416px;
+    height: 3144px;
+
+    /* Hvit */
+
+    background: #FFFFFF;
+  }
+}

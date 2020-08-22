@@ -430,3 +430,10 @@ $breakpoint-mobile: 799px;
         margin: 16px 12.5px;
     }
 }
+
+// Mobile
+@media (min-width: 200px) and (max-width: $breakpoint-mobile) {
+    .footerDesktop {
+        display: none;
+    }
+}
