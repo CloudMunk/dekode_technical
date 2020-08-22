@@ -12,7 +12,8 @@ $breakpoint-mobile: 799px;
     .footerDesktop {
         display: flex;
         flex-direction: column;
-        padding: 48px 0px;
+        padding: 0px 0px;
+        padding-top: 48px;
         position: absolute;
         width: 1440px;
         height: 400px;
@@ -26,7 +27,7 @@ $breakpoint-mobile: 799px;
         order: 11;
         align-self: center;
         margin: 0px 48px;
-        margin-top: 175px;
+        margin-top: 185px;
     }
     .logoFooter {
         position: static;
@@ -41,7 +42,7 @@ $breakpoint-mobile: 799px;
         margin: 0px 140px;
         margin-bottom: 55px;
     }
-    .frame31footer {
+    .frame31footerA {
         display: flex;
         flex-direction: row;
         padding: 0px;
@@ -132,7 +133,8 @@ $breakpoint-mobile: 799px;
         flex: none;
         order: 2;
         align-self: flex-start;
-        margin: 25px 24px;
+        margin: 15px 24px;
+        margin-bottom: 53px;
     }
     .adresseFooter {
         position: static;
@@ -175,5 +177,256 @@ $breakpoint-mobile: 799px;
         order: 5;
         align-self: flex-start;
         margin: 0px 24px;
+    }
+    .frame30Footer {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        position: static;
+        width: 368px;
+        height: 176px;
+        left: 416px;
+        top: 0px;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 1;
+        align-self: flex-start;
+        margin: 0px 55px;
+    }
+    .tjenester {
+        position: static;
+        width: 368px;
+        height: 16px;
+        left: 0px;
+        top: 0px;
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        /* identical to box height, or 133% */
+        text-decoration-line: underline;
+        /* Main */
+        color: #8500D7;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 0;
+        align-self: flex-start;
+        margin: 12.5px 24px;
+    }
+    .produkterFooter {
+        position: static;
+        width: 368px;
+        height: 16px;
+        left: 0px;
+        top: 40px;
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        /* identical to box height, or 133% */
+        text-decoration-line: underline;
+        /* Main */
+        color: #8500D7;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 1;
+        align-self: flex-start;
+        margin: 12.5px 24px;
+    }
+    .kontaktFooter {
+        position: static;
+        width: 368px;
+        height: 16px;
+        left: 0px;
+        top: 80px;
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        /* identical to box height, or 133% */
+        text-decoration-line: underline;
+        /* Main */
+        color: #8500D7;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 2;
+        align-self: flex-start;
+        margin: 12.5px 24px;
+    }
+    .abonnementFooter {
+        position: static;
+        width: 368px;
+        height: 16px;
+        left: 0px;
+        top: 120px;
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        /* identical to box height, or 133% */
+        text-decoration-line: underline;
+        /* Main */
+        color: #8500D7;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 3;
+        align-self: flex-start;
+        margin: 12.5px 24px;
+    }
+    .logInnFooter {
+        position: static;
+        width: 368px;
+        height: 16px;
+        left: 0px;
+        top: 160px;
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        /* identical to box height, or 133% */
+        text-decoration-line: underline;
+        /* Main */
+        color: #8500D7;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 4;
+        align-self: flex-start;
+        margin: 12.5px 24px;
+    }
+    .frame31FooterB {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        position: static;
+        width: 368px;
+        height: 184px;
+        left: 832px;
+        top: 0px;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 2;
+        align-self: flex-start;
+        margin: 0px 0px;
+        
+    }
+    .personvernFooter {
+        position: static;
+        width: 368px;
+        height: 16px;
+        left: 0px;
+        top: 0px;
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        /* identical to box height, or 133% */
+        text-decoration-line: underline;
+        /* Main */
+        color: #8500D7;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 0;
+        align-self: flex-start;
+        margin: 15px 24px;
+    }
+    .cookiesFooter {
+        position: static;
+        width: 368px;
+        height: 16px;
+        left: 0px;
+        top: 40px;
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        /* identical to box height, or 133% */
+        text-decoration-line: underline;
+        /* Main */
+        color: #8500D7;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 1;
+        align-self: flex-start;
+        margin: 15px 24px;
+    }
+    .languageFooter {
+        position: static;
+        width: 368px;
+        height: 16px;
+        left: 0px;
+        top: 80px;
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        /* identical to box height, or 133% */
+        text-decoration-line: underline;
+        /* Main */
+        color: #8500D7;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 2;
+        align-self: flex-start;
+        margin: 15px 24px;
+    }
+    .frame27Footer {
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+        position: static;
+        width: 104px;
+        height: 24px;
+        left: 0px;
+        top: 160px;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 4;
+        align-self: flex-start;
+        margin: 0px 14px;
+        margin-top: 50px;
+    }
+    .twitterFooter {
+        position: static;
+        width: 16px;
+        height: 16px;
+        left: 0px;
+        top: 0px;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 0;
+        align-self: center;
+        margin: 16px 12.5px;
+    }
+    .instagramFooter {
+        position: static;
+        width: 16px;
+        height: 16px;
+        left: 40px;
+        top: 0px;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 1;
+        align-self: center;
+        margin: 16px 12.5px;
+    }
+    .facebookFooter {
+        position: static;
+        width: 16px;
+        height: 16px;
+        left: 80px;
+        top: 0px;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 2;
+        align-self: center;
+        margin: 16px 12.5px;
     }
 }
