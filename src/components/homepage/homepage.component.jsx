@@ -2,12 +2,14 @@ import React from 'react'
 
 import rightArrowSmall from '../../assets/arrowSmallRight.svg'
 import arrowLeft from '../../assets/arrowLeft.svg'
+import rightArrow from '../../assets/arrowRight.svg'
 import janeDoe from '../../assets/janeDoe.png'
 import Twitter from '../../assets/twitter.svg'
 import Instagram from '../../assets/instagram.svg'
 import FaceBook from '../../assets/facebook.svg'
 import Ocean1 from '../../assets/ocean1.png'
-import stor1 from '../../assets/stor1.png'
+import Stor1 from '../../assets/stor1.svg'
+import Stor2 from '../../assets/stor2.svg'
 
 import './homepage.styles.scss'
 
@@ -93,19 +95,60 @@ const Homepage = () => (
                 perceive colors that the same hue as violet, but with lower saturation.
             </p>
         </div>
+        {/* -------------------- FRAME 25 ---------------------------------------------- */}
         <div className="frame25">
             <div className="frame20">
                 <img src={arrowLeft} alt="" className="leftVector"/>
                 <div className="frame18">
-                    <img src={stor1} alt="" className="stor1"/>
-
+                    <img src={Stor1} alt="Artsy vector design in puprle, green and red." className="stor1"/>
                     <div className="frame23">
                         <h2 className="headerFrame23">
                             Lorem ipsum
                         </h2>
                     </div>
+                    <p className="subFrame18">
+                        17. august 2020
+                    </p>
+                    <p className="paragraphFrame18">
+                        In optics, violet is a spectral color: It refers to the color of any different 
+                        single wavelength of light on the short wavelength end of the visible spectrum.
+                    </p>
                 </div>
+                <div className="frame19">
+                    <img src={Stor2} alt="" className="stor2"/>
+                    <div className="frame23">
+                        <h2 className="headerFrame23">
+                            Lorem ipsum
+                        </h2>
+                    </div>
+                    <p className="subFrame18">
+                        17. august 2020
+                    </p>
+                    <p className="paragraphFrame18">
+                        In optics, violet is a spectral color: It refers to the color of any different 
+                        single wavelength of light on the short wavelength end of the visible spectrum.
+                    </p>
+                </div>
+                <div className="frame20b">
+                <img src={Stor1} alt="Artsy vector design in puprle, green and red." className="stor1"/>
+                    <div className="frame23">
+                        <h2 className="headerFrame23">
+                            Lorem ipsum
+                        </h2>
+                    </div>
+                    <p className="subFrame18">
+                        17. august 2020
+                    </p>
+                    <p className="paragraphFrame18">
+                        In optics, violet is a spectral color: It refers to the color of any different 
+                        single wavelength of light on the short wavelength end of the visible spectrum.
+                    </p>
+                </div>
+                <img src={rightArrow} alt="" className="rightVector"/>
             </div>
+        </div>
+        <div className="frame29">
+
         </div>
     </div>
 )
