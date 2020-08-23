@@ -18,6 +18,7 @@ import './homepage.styles.scss'
 
 const Homepage = () => (
     <div>
+        {/* DESKTOP */}
         <div className="frame14">
             <div className="frame13">
                 <p className="teft">
@@ -161,9 +162,12 @@ const Homepage = () => (
                     the L-cone is stimulated weakly.
                 </p>
             </div>
-            <button className="btnTeft">
-                <p className="whyTeft">Why teft?</p>
-            </button>
+            <div className="outlineDiv">
+                <button className="btnTeft">
+                    <p className="whyTeft">Why teft?</p>
+                </button>
+            </div>
+           
         </div>
         
         {/* MOBILE */}

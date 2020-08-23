@@ -46,7 +46,6 @@ $breakpoint-mobile: 799px;
       height: 24px;
       left: 0px;
       top: 0px;
-
       /* Navigasjon desktop */
       font-family: 'Circular Std';
       font-style: normal;
@@ -54,15 +53,14 @@ $breakpoint-mobile: 799px;
       font-size: 20px;
       line-height: 24px;
       /* identical to box height, or 120% */
-
       /* Main */
       color: #8500D7;
-
       /* Inside Auto Layout */
       flex: none;
       order: 0;
       align-self: center;
       margin: 8px 0px;
+      cursor: pointer;
    }
    .firstForward {
       position: static;
@@ -96,6 +94,7 @@ $breakpoint-mobile: 799px;
       order: 2;
       align-self: center;
       margin: 8px 0px;
+      cursor: pointer;
    }
    .secondForward {
       position: static;
@@ -289,6 +288,7 @@ $breakpoint-mobile: 799px;
       order: 0;
       align-self: center;
       margin-right: 12px;
+      cursor: pointer;
    }
    .instagram {
       position: static;
@@ -301,6 +301,7 @@ $breakpoint-mobile: 799px;
       order: 1;
       align-self: center;
       margin: 0px 12px;
+      cursor: pointer;
    }
    .facebook {
       position: static;
@@ -313,6 +314,7 @@ $breakpoint-mobile: 799px;
       order: 2;
       align-self: center;
       margin: 0px 12px;
+      cursor: pointer;
    }
    .frame17 {
       /* Auto Layout */
@@ -551,6 +553,7 @@ $breakpoint-mobile: 799px;
       order: 0;
       align-self: center;
       margin: 48px 0px;
+      cursor: pointer;
    }
    .frame18 {
       display: flex;
@@ -710,6 +713,7 @@ $breakpoint-mobile: 799px;
       order: 4;
       align-self: center;
       margin: 48px 0px;
+      cursor: pointer;
    }
    .frame29Desktop {
       display: flex;
@@ -788,6 +792,51 @@ $breakpoint-mobile: 799px;
       order: 10;
       align-self: center;
       margin: 0px 48px;
+      transition-duration: 0.4s;
+   }
+   .btnTeft:hover {
+      display: flex;
+      flex-direction: row;
+      padding: 12px 24px;
+      position: absolute;
+      width: 121px;
+      height: 48px;
+      left: 640px;
+      top: 2516px;
+      /* Main light */
+      background: #E7BFFF;
+      /* Main */
+      border: 2px solid #8500D7;
+      box-sizing: border-box;
+      border-radius: 8px;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 1;
+      align-self: center;
+      margin: 0px 48px;
+      cursor: pointer;
+   }
+   .btnTeft:focus {
+      display: flex;
+      flex-direction: row;
+      padding: 12px 20px;
+      position: absolute;
+      width: 121px;
+      height: 48px;
+      left: 640px;
+      top: 2516px;
+      // padding-left: 12px;
+      // padding-right: 12px;
+      /* Main light */
+      background: #E7BFFF;
+      /* Main */
+      border: 6px double #8500D7;
+      box-sizing: border-box;
+      border-radius: 8px;
+      outline: none;
+      -webkit-box-shadow: 0px -1px 23px -4px rgba(30,108,249,1);
+      -moz-box-shadow: 0px -1px 23px -4px rgba(30,108,249,1);
+      box-shadow: 0px -1px 23px -4px rgba(30,108,249,1);
    }
    .whyTeft {
       position: static;
@@ -1464,11 +1513,35 @@ $breakpoint-mobile: 799px;
       border: 2px solid #8500D7;
       box-sizing: border-box;
       border-radius: 8px;
+      transition-duration: 0.4s;
       /* Inside Auto Layout */
       flex: none;
       order: 1;
       align-self: center;
       margin: 0px 48px;
+   }
+   .buttonMobile:focus {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-end;
+      // padding: -12px 10px;
+      position: absolute;
+      width: 121px;
+      height: 48px;
+      // left: 640px;
+      top: 80px;
+      /* Main light */
+      background: #E7BFFF;
+      /* Main */
+      border: 6px double #8500D7;
+      box-sizing: border-box;
+      border-radius: 8px;
+      outline: none;
+      -webkit-box-shadow: 0px -1px 23px -4px rgba(30,108,249,1);
+      -moz-box-shadow: 0px -1px 23px -4px rgba(30,108,249,1);
+      box-shadow: 0px -1px 23px -4px rgba(30,108,249,1);
+      
    }
    .whyTeftMobile {
       position: absolute;
@@ -1490,5 +1563,4 @@ $breakpoint-mobile: 799px;
       align-self: center;
       margin: 0px 0px;
    }
-   
 }

@@ -32,11 +32,11 @@ $breakpoint-mobile: 799px;
         top: 24px;
     }
     .logo {
-       
         left: 0%;
         right: 80.82%;
         top: 12.23%;
         bottom: 7.35%;
+        cursor: pointer;
     }
     .circles {
         position: static;
@@ -44,9 +44,7 @@ $breakpoint-mobile: 799px;
         height: 24px;
         left: 147px;
         top: 8px;
-
         /* Navigasjon desktop */
-
         font-family: 'CircularStdBook';
         font-style: normal;
         font-weight: bold;
@@ -55,7 +53,6 @@ $breakpoint-mobile: 799px;
         /* identical to box height, or 120% */
         /* Black */
         color: #262626;
-
         /* Inside Auto Layout */
         flex: none;
         order: 1;
@@ -68,7 +65,6 @@ $breakpoint-mobile: 799px;
         height: 24px;
         left: 277px;
         top: 8px;
-
         /* Navigasjon desktop */
         font-family: 'CircularStdBook';
         font-style: normal;
@@ -83,6 +79,7 @@ $breakpoint-mobile: 799px;
         order: 2;
         align-self: center;
         margin: 64px 0px;
+        cursor: pointer;
     }
     .triangles {
         position: static;
@@ -90,7 +87,6 @@ $breakpoint-mobile: 799px;
         height: 24px;
         left: 416px;
         top: 8px;
-
         /* Navigasjon desktop */
         font-family: 'CircularStdBook';
         font-style: normal;
@@ -98,15 +94,14 @@ $breakpoint-mobile: 799px;
         font-size: 20px;
         line-height: 24px;
         /* identical to box height, or 120% */
-
         /* Black */
         color: #262626;
-
         /* Inside Auto Layout */
         flex: none;
         order: 3;
         align-self: center;
         margin: 64px 0px;
+        cursor: pointer;
     }
     .searchBox {
         display: flex;
@@ -125,7 +120,6 @@ $breakpoint-mobile: 799px;
         height: 24px;
         left: 0px;
         top: 0px;
-
         /* Navigasjon desktop */
         font-family: 'CircularStdBook';
         font-style: normal;
@@ -133,15 +127,14 @@ $breakpoint-mobile: 799px;
         font-size: 20px;
         line-height: 24px;
         /* identical to box height, or 120% */
-
         /* Black */
         color: #262626;
-
         /* Inside Auto Layout */
         flex: none;
         order: 0;
         align-self: center;
         margin: 8px 0px;
+        cursor: pointer;
     }
     .searchVector {
         position: absolute;
@@ -149,7 +142,7 @@ $breakpoint-mobile: 799px;
         // right: 13.56%;
         top: 13.56%;
         bottom: 13.56%;
-
+        cursor: pointer;
     }
 }
 
