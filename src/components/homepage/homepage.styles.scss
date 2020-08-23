@@ -11,6 +11,9 @@ $breakpoint-mobile: 799px;
 // }
 // Desktop
 @media (min-width: 800px) and (max-width: $breakpoint-bigscreen) {
+   .frame14Mobile {
+      display: none;
+   }
    .frame14 {
       display: flex;
       flex-direction: column;
@@ -839,7 +842,7 @@ $breakpoint-mobile: 799px;
    .frame13Mobile {
       display: flex;
       flex-direction: row;
-      padding: 0px;
+      padding: 24px;
       position: static;
       width: 261px;
       height: 24px;
@@ -945,10 +948,11 @@ $breakpoint-mobile: 799px;
       height: 64px;
       left: 24px;
       top: 72px;
+      padding: 24px;
       /* H1 mobil */
       font-family: 'Circular Std';
       font-style: normal;
-      font-weight: 500;
+      font-weight: 600;
       font-size: 32px;
       line-height: 64px;
       /* identical to box height, or 200% */
@@ -959,7 +963,7 @@ $breakpoint-mobile: 799px;
       flex: none;
       order: 1;
       align-self: flex-start;
-      margin: 35px 48px;
+      // margin: 0px 48px;
    }
    .purpleAssociatedMobile {
       position: static;
@@ -980,8 +984,9 @@ $breakpoint-mobile: 799px;
       /* Inside Auto Layout */
       flex: none;
       order: 2;
-      align-self: flex-start;
-      margin: 20px 48px;
+      align-self: center;
+      margin: 0px 48px;
+      margin-bottom: 25px;
    }
    .purpleParagraphMobile {
       position: static;
@@ -1001,8 +1006,8 @@ $breakpoint-mobile: 799px;
       /* Inside Auto Layout */
       flex: none;
       order: 3;
-      align-self: flex-start;
-      margin: 35px 48px;
+      align-self: center;
+      margin: 25px 48px;
    }
    .frame17Mobile {
       display: flex;
@@ -1012,7 +1017,7 @@ $breakpoint-mobile: 799px;
       width: 416px;
       height: 334px;
       left: 0px;
-      top: 608px;
+      top: 650px;
       /* Inside Auto Layout */
       flex: none;
       order: 4;
@@ -1042,7 +1047,7 @@ $breakpoint-mobile: 799px;
       position: absolute;
       width: 392px;
       height: 246px;
-      left: 24px;
+      // left: 24px;
       top: 0px;
       border-radius: 0px 8px 8px 0px;
    }
@@ -1087,7 +1092,7 @@ $breakpoint-mobile: 799px;
       position: absolute;
       width: 368px;
       height: 64px;
-      left: 24px;
+      // left: 24px;
       top: 270px;
       /* Bildetekst mobil */
       font-family: 'Circular Std';
@@ -1103,5 +1108,178 @@ $breakpoint-mobile: 799px;
       order: 1;
       align-self: center;
       margin: 0px 24px;
+   }
+   .humansMobile {
+      position: absolute;
+      width: 368px;
+      height: 120px;
+      left: 0px;
+      top: 370px;
+      /* Paragraph mobil */
+      font-family: 'Circular Std';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      /* or 150% */
+      /* Black */
+      color: #262626;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 5;
+      align-self: center;
+      margin: 0px 24px;
+   }
+   .frame21Mobile {
+      /* Auto Layout */
+      display: flex;
+      flex-direction: column;
+      padding: 0px;
+      position: absolute;
+      width: 368px;
+      height: 224px;
+      left: 0px;
+      top: 1185px;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 6;
+      align-self: center;
+      margin: 0px 24px;
+   }
+   .asResultMobile {
+      position: static;
+      width: 368px;
+      height: 32px;
+      left: 0px;
+      top: 0px;
+      /* H2 mobil */
+      font-family: 'Circular Std';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 32px;
+      /* identical to box height, or 133% */
+      /* Black */
+      color: #262626;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 0;
+      align-self: center;
+      margin: 0px 24px;
+   }
+   .asResultParagraphMobile {
+      position: absolute;
+      width: 368px;
+      height: 168px;
+      // left: 0px;
+      top: 56px;
+      /* Paragraph mobil */
+      font-family: 'Circular Std';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      /* or 150% */
+      /* Black */
+      color: #262626;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 1;
+      align-self: center;
+      margin: 0px 24px;
+   }
+   .frame24Mobile {
+      display: flex;
+      flex-direction: row;
+      padding: 48px 24px;
+      position: absolute;
+      width: 416px;
+      height: 452px;
+      left: -16px;
+      top: 1540px;
+   }
+   .frame22Mobile {
+      display: flex;
+      flex-direction: column;
+      padding: 0px;
+      position: static;
+      width: 176px;
+      height: 356px;
+      left: 24px;
+      top: 48px;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 0;
+      align-self: center;
+      margin: 16px 0px;
+   }
+   .liten1 {
+      position: static;
+      width: 176px;
+      height: 176px;
+      left: 0px;
+      top: 0px;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 0;
+      align-self: flex-end;
+      margin: 0px 12px;
+   }
+   .frame23Mobile {
+      display: flex;
+      flex-direction: row;
+      padding: 0px;
+      position: static;
+      width: 144px;
+      height: 32px;
+      left: 0px;
+      top: 188px;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 1;
+      align-self: flex-start;
+      margin: 0px 12px;
+   }
+   .loremIpsumMobile {
+      position: static;
+      width: 144px;
+      height: 32px;
+      left: 0px;
+      top: 0px;
+      /* H2 mobil */
+      font-family: 'Circular Std';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 32px;
+      /* identical to box height, or 133% */
+      /* Main */
+      color: #8500D7;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 0;
+      align-self: center;
+      margin: 8px 0px;
+   }
+   .subLoremMobile {
+      position: static;
+      width: 82px;
+      height: 16px;
+      left: 0px;
+      top: 232px;
+      /* Bildetekst mobil */
+      font-family: 'Circular Std';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 16px;
+      /* identical to box height, or 133% */
+      /* dark grey */
+      color: #707070;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 2;
+      align-self: flex-start;
+      margin: 0px 12px;
    }
 }

@@ -10,6 +10,8 @@ import FaceBook from '../../assets/facebook.svg'
 import Ocean1 from '../../assets/ocean1.png'
 import Stor1 from '../../assets/stor1.svg'
 import Stor2 from '../../assets/stor2.svg'
+import Liten1 from '../../assets/liten1.png'
+import Liten2 from '../../assets/liten2.png'
 
 import './homepage.styles.scss'
 
@@ -165,6 +167,7 @@ const Homepage = () => (
         
         {/* MOBILE */}
         <div className="frame14Mobile">
+            {/* -------------------------------- FRAME 13 -------------------------------- */}
             <div className="frame13Mobile">
                 <p className="teftMobile">teft</p>
                 <img src={rightArrowSmall} alt="" className="forwardMobileFirst"/>
@@ -189,6 +192,7 @@ const Homepage = () => (
             Similarly, in the traditional painters' color wheel, purple and violet are both placed between 
             red and blue, with purple is closer to red
             </p>
+            {/* -------------------------------- FRAME 17 -------------------------------- */}
             <div className="frame17Mobile">
                 <div className="group470Mobile">
                     <div className="group471Mobile">
@@ -205,9 +209,47 @@ const Homepage = () => (
                     single wavelength of light on the short wavelength end of the visible spectrum, 
                     between approximately 380 and 450 nanometers
                 </p>
+                <p className="humansMobile">
+                    In humans, the L (red) cone in the eye is primarily sensitive to long wavelength light in 
+                    the yellow-red region of the spectrum, but is also somewhat sensitive to the shorter wavelength 
+                    violet light that primarily stimulates the S (blue) cone.
+                </p>
             </div>
+            {/* -------------------------------- FRAME 21 -------------------------------- */}
+            <div className="frame21Mobile">
+                <h2 className="asResultMobile">
+                    As a result
+                </h2>
+                <p className="asResultParagraphMobile">
+                    As a result, when violet light strikes the eye, the S-cone is stimulated strongly and the 
+                    L-cone is stimulated weakly. Accordingly, strong blue light mixed with weaker red light can 
+                    mimic this pattern of stimulation, causing humans to perceive colors that the same hue as 
+                    violet, but with lower saturation.
+                </p>
+            </div>
+            {/* -------------------------------- FRAME 24 -------------------------------- */}
+            <div className="frame24Mobile">
+                {/* -------------------------------- FRAME SMALL 22 -------------------------------- */}
+                <div className="frame22Mobile">
+                    <img src={Liten1} alt="" className="liten1"/>
+                    <div className="frame23Mobile">
+                        <h2 className="loremIpsumMobile">
+                            Lorem ipsum
+                        </h2>
+                    </div>
+                    <p className="subLoremMobile">
+                        17. august 2020
+                    </p>
+                </div>
+                {/* -------------------------------- FRAME SMALL 24 -------------------------------- */}
+                <div className="frame24SmallMobile">
 
+                </div>
+                {/* -------------------------------- FRAME SMALL 25 -------------------------------- */}
+                <div className="frame25Mobile">
 
+                </div>
+            </div>
         </div>
     </div>
     
