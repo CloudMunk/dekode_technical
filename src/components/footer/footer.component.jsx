@@ -91,7 +91,35 @@ const Footer = () => (
                     </p>
                 </div>
                 <div className="frame30FooterMobile">
-
+                    <p className="tjenesterFooterMobile">
+                        Tjenester
+                    </p>
+                    <p className="produkterFooterMobile">
+                        Produkter
+                    </p>
+                    <p className="kontaktFooterMobile">
+                        Kontakt
+                    </p>
+                    <p className="abonnementFooterMobile">
+                        Abonnement
+                    </p>
+                    <p className="logInnFooterMobile">
+                        Logg inn
+                    </p>
+                    <p className="personvernFooterMobile">
+                        Personvernerklæring
+                    </p>
+                    <p className="cookiesFooterMobile">
+                        Cookies
+                    </p>
+                    <p className="languageFooterMobile">
+                        Language: ENG (US)
+                    </p>
+                    <div className="frame27FooterMobile">
+                        <img src={Twitter} alt="" className="twitterFooterMobile"/>
+                        <img src={Instagram} alt="" className="instagramFooterMobile"/>
+                        <img src={Facebook} alt="" className="facebookFooterMobile"/>
+                    </div>
                 </div>
             </div>
         </div>

@@ -504,16 +504,16 @@ $breakpoint-mobile: 799px;
         display: flex;
         flex-direction: column;
         padding: 0px;
-        position: static;
+        position: absolute;
         width: 368px;
         height: 384px;
         left: 0px;
-        top: 264px;
+        top: 300px;
         /* Inside Auto Layout */
         flex: none;
         order: 1;
         align-self: flex-start;
-        margin: 0px 48px;
+        margin: 0px 0px;
      }
      .dekodeASFooterMobile {
         position: static;
@@ -621,5 +621,224 @@ $breakpoint-mobile: 799px;
         align-self: flex-start;
         margin: 0px 24px;
         margin-top: 30px;
+     }
+     .tjenesterFooterMobile {
+        position: static;
+        width: 368px;
+        height: 16px;
+        left: 0px;
+        top: 0px;
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        /* identical to box height, or 133% */
+        text-decoration-line: underline;
+        /* Main */
+        color: #8500D7;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 0;
+        align-self: flex-start;
+        margin: 10px 24px;
+     }
+     .produkterFooterMobile {
+        position: static;
+        width: 368px;
+        height: 16px;
+        left: 0px;
+        top: 40px;
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        /* identical to box height, or 133% */
+        text-decoration-line: underline;
+        /* Main */
+        color: #8500D7;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 1;
+        align-self: flex-start;
+        margin: 10px 24px;
+     }
+     .kontaktFooterMobile {
+        position: static;
+        width: 368px;
+        height: 16px;
+        left: 0px;
+        top: 80px;
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        /* identical to box height, or 133% */
+        text-decoration-line: underline;
+        /* Main */
+        color: #8500D7;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 2;
+        align-self: flex-start;
+        margin: 10px 24px;
+     }
+     .abonnementFooterMobile {
+        position: static;
+        width: 368px;
+        height: 16px;
+        left: 0px;
+        top: 120px;
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        /* identical to box height, or 133% */
+        text-decoration-line: underline;
+        /* Main */
+        color: #8500D7;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 3;
+        align-self: flex-start;
+        margin: 10px 24px;
+     }
+     .logInnFooterMobile {
+        position: static;
+        width: 368px;
+        height: 16px;
+        left: 0px;
+        top: 160px;
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        /* identical to box height, or 133% */
+        text-decoration-line: underline;
+        /* Main */
+        color: #8500D7;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 4;
+        align-self: flex-start;
+        margin: 10px 24px;
+     }
+     .personvernFooterMobile {
+        position: static;
+        width: 368px;
+        height: 16px;
+        left: 0px;
+        top: 200px;    
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        /* identical to box height, or 133% */
+        text-decoration-line: underline;
+        /* Main */
+        color: #8500D7;
+        /* Inside Auto Layout */ 
+        flex: none;
+        order: 5;
+        align-self: flex-start;
+        margin: 10px 24px;
+     }
+     .cookiesFooterMobile {
+        position: static;
+        width: 368px;
+        height: 16px;
+        left: 0px;
+        top: 240px; 
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        /* identical to box height, or 133% */
+        text-decoration-line: underline;
+        /* Main */
+        color: #8500D7;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 6;
+        align-self: flex-start;
+        margin: 10px 24px;
+     }
+     .languageFooterMobile {
+        position: static;
+        width: 368px;
+        height: 16px;
+        left: 0px;
+        top: 280px;
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        /* identical to box height, or 133% */
+        text-decoration-line: underline;
+        /* Main */
+        color: #8500D7;
+        /* Inside Auto Layout */ 
+        flex: none;
+        order: 7;
+        align-self: flex-start;
+        margin: 10px 24px;
+     }
+     .frame27FooterMobile {
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+        position: absolute;
+        width: 104px;
+        height: 24px;
+        left: 0px;
+        top: 360px;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 9;
+        align-self: flex-start;
+        margin: 0px 12px;
+     }
+     .twitterFooterMobile {
+        position: static;
+        width: 18px;
+        height: 18px;
+        left: 0px;
+        top: 0px;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 0;
+        align-self: center;
+        margin: 16px 15px;
+     }
+     .instagramFooterMobile {
+        position: static;
+        width: 18px;
+        height: 18px;
+        left: 40px;
+        top: 0px;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 1;
+        align-self: center;
+        margin: 16px 15px;
+     }
+     .facebookFooterMobile {
+        position: static;
+        width: 18px;
+        height: 18px;
+        left: 80px;
+        top: 0px;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 2;
+        align-self: center;
+        margin: 16px 15px;
      }
 }
