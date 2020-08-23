@@ -10,8 +10,9 @@ import FaceBook from '../../assets/facebook.svg'
 import Ocean1 from '../../assets/ocean1.png'
 import Stor1 from '../../assets/stor1.svg'
 import Stor2 from '../../assets/stor2.svg'
-import Liten1 from '../../assets/liten1.png'
-import Liten2 from '../../assets/liten2.png'
+import Liten1 from '../../assets/liten1.svg'
+import Liten2 from '../../assets/liten2.svg'
+// import Mini1 from '../../assets/mini1.svg'
 
 import './homepage.styles.scss'
 
@@ -240,16 +241,59 @@ const Homepage = () => (
                     <p className="subLoremMobile">
                         17. august 2020
                     </p>
+                    <p className="KortteksterMobil">
+                        En stemme og et forfatterskap som samlet barn og voksne i norsk etterkrigstid.
+                    </p>
                 </div>
                 {/* -------------------------------- FRAME SMALL 24 -------------------------------- */}
                 <div className="frame24SmallMobile">
-
+                <img src={Liten1} alt="" className="liten1"/>
+                    <div className="frame23Mobile">
+                        <h2 className="loremIpsumMobile">
+                            Lorem ipsum
+                        </h2>
+                    </div>
+                    <p className="subLoremMobile">
+                        17. august 2020
+                    </p>
+                    <p className="KortteksterMobil">
+                        En stemme og et forfatterskap som samlet barn og voksne i norsk etterkrigstid.
+                    </p>
+                    
                 </div>
                 {/* -------------------------------- FRAME SMALL 25 -------------------------------- */}
                 <div className="frame25Mobile">
-
+                        <img src={Liten2} alt="" className="mini1"/>
+                        <div className="frame23Mobile">
+                        <h2 className="loremIpsumMobile2">
+                            Lorem ipsum
+                        </h2>
+                    </div>
+                    <p className="subLoremMobile">
+                        17. august 2020
+                    </p>
+                    <p className="KortteksterMobil">
+                        En stemme og et forfatterskap som samlet barn og voksne i norsk etterkrigstid.
+                    </p>
                 </div>
             </div>
+            <div className="frame33Mobile">
+                <div className="frame22Mobile2">
+                    <h2 className="teftMobile2">
+                        Teft?
+                    </h2>
+                    <p className="teftParagraphMobile">
+                        As a result, when violet light strikes the eye, the S-cone is stimulated strongly and 
+                        the L-cone is stimulated weakly.
+                    </p>
+                </div>
+                <button className="buttonMobile">
+                    <p className="whyTeftMobile">
+                        Why teft?
+                    </p>
+                </button>
+            </div>
+           
         </div>
     </div>
     

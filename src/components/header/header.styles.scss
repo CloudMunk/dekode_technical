@@ -7,7 +7,10 @@ $breakpoint-mobile: 799px;
          url(/fonts/CircularStdBook.woff2) format('woff2'),
     }
 // Desktop
-@media (min-width: 1200px) and (max-width: $breakpoint-bigscreen) {
+@media (min-width: 800px) and (max-width: $breakpoint-bigscreen) {
+    .headerMobile {
+        display: none;
+    }
     .header {
         position: absolute;
         width: 1440px;

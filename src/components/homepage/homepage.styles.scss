@@ -1196,7 +1196,7 @@ $breakpoint-mobile: 799px;
       width: 416px;
       height: 452px;
       left: -16px;
-      top: 1540px;
+      top: 1408px;
    }
    .frame22Mobile {
       display: flex;
@@ -1223,7 +1223,7 @@ $breakpoint-mobile: 799px;
       flex: none;
       order: 0;
       align-self: flex-end;
-      margin: 0px 12px;
+      margin: 10px 12px;
    }
    .frame23Mobile {
       display: flex;
@@ -1249,7 +1249,7 @@ $breakpoint-mobile: 799px;
       /* H2 mobil */
       font-family: 'Circular Std';
       font-style: normal;
-      font-weight: 500;
+      font-weight: 600;
       font-size: 24px;
       line-height: 32px;
       /* identical to box height, or 133% */
@@ -1259,7 +1259,7 @@ $breakpoint-mobile: 799px;
       flex: none;
       order: 0;
       align-self: center;
-      margin: 8px 0px;
+      margin: 15px 0px;
    }
    .subLoremMobile {
       position: static;
@@ -1275,11 +1275,237 @@ $breakpoint-mobile: 799px;
       line-height: 16px;
       /* identical to box height, or 133% */
       /* dark grey */
-      color: #707070;
+      color: #232323;
       /* Inside Auto Layout */
       flex: none;
       order: 2;
       align-self: flex-start;
+      margin: 5px 12px;
+   }
+   .KortteksterMobil {
+      position: static;
+      width: 176px;
+      height: 96px;
+      left: 0px;
+      top: 260px;
+      /* Korttekster mobil */
+      font-family: 'Circular Std';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 24px;
+      /* or 171% */
+      /* Black */
+      color: #262626;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 3;
+      align-self: flex-start;
+      margin: 5px 12px;
+   }
+   .frame24SmallMobile {
+      display: flex;
+      flex-direction: column;
+      padding: 0px;
+      position: static;
+      width: 176px;
+      height: 356px;
+      left: 216px;
+      top: 48px;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 1;
+      align-self: center;
+      margin: 16px 0px;
+   }
+   .liten2 {
+      position: static;
+      width: 176px;
+      height: 176px;
+      left: 0px;
+      top: 0px;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 0;
+      align-self: flex-end;
       margin: 0px 12px;
+   }
+   .frame25Mobile {
+      /* Auto Layout */
+      display: flex;
+      flex-direction: column;
+      padding: 0px;
+      position: static;
+      width: 176px;
+      height: 356px;
+      left: 408px;
+      top: 48px;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 2;
+      align-self: center;
+      margin: 16px 0px;
+   }
+   .mini1 {
+      position: static;
+      width: 176px;
+      height: 176px;
+      left: 0px;
+      top: 0px;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 0;
+      align-self: flex-end;
+      margin: 10px 0px;
+   }
+   .loremIpsumMobile2 {
+      position: static;
+      width: 144px;
+      height: 32px;
+      left: 0px;
+      top: 0px;
+      /* H2 mobil */
+      font-family: 'Circular Std';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 32px;
+      /* identical to box height, or 133% */
+      /* Main */
+      color: #8500D7;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 0;
+      align-self: center;
+      margin: 10px 0px;
+   }
+   .frame33Mobile {
+      /* Auto Layout */
+      display: flex;
+      flex-direction: column;
+      padding: 0px;
+      position: absolute;
+      width: 416px;
+      height: 1104px;
+      left: 0px;
+      top: 2040px;
+   }
+   .frame22Mobile2 {
+      /* Auto Layout */
+      display: flex;
+      flex-direction: column;
+      padding: 0px;
+      position: static;
+      width: 368px;
+      height: 128px;
+      left: 24px;
+      top: 0px;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 0;
+      align-self: center;
+      margin: 0px 48px;
+      margin-top: -100px;
+   }
+   .teftMobile2 {
+      position: static;
+      width: 368px;
+      height: 32px;
+      left: 0px;
+      top: -100px;
+      /* H2 mobil */
+      font-family: 'Circular Std';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 32px;
+      /* identical to box height, or 133% */
+      /* Black */
+      color: #262626;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 0;
+      align-self: center;
+      margin: 10px 24px;
+   }
+   .teftParagraphMobile {
+      position: static;
+      width: 368px;
+      height: 72px;
+      left: 0px;
+      top: 56px;
+      /* Paragraph mobil */
+      font-family: 'Circular Std';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      /* or 150% */
+      /* Black */
+      color: #262626;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 1;
+      align-self: center;
+      margin: 10px 24px;
+   }
+   .buttonMobile {
+      display: flex;
+      flex-direction: row;
+      padding: 12px 24px;
+      position: absolute;
+      width: 121px;
+      height: 48px;
+      // left: 147.5px;
+      top: 80px;
+      /* White */
+      background: #FFFFFF;
+      /* Main */
+      border: 2px solid #8500D7;
+      box-sizing: border-box;
+      border-radius: 8px;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 1;
+      align-self: center;
+      margin: 0px 48px;
+   }
+   .whyTeftMobile {
+      position: absolute;
+      width: 73px;
+      height: 24px;
+      left: 24px;
+      top: 12px;
+      font-family: 'Circular Std';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      /* identical to box height, or 150% */
+      /* Black */
+      color: #262626;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 0;
+      align-self: center;
+      margin: 0px 0px;
+   }
+   .frame33Footer {
+      display: flex;
+      flex-direction: column;
+      padding: 48px 24px;
+      position: absolute;
+      width: 416px;
+      height: 832px;
+      left: -48px;
+      top: 2250px;
+      /* White */
+      background: #FFFFFF;
+      box-shadow: 4px 0px 4px rgba(145, 158, 167, 0.25);
+      /* Inside Auto Layout */
+      flex: none;
+      order: 11;
+      align-self: flex-start;
+      margin: 0px 48px;
    }
 }

@@ -8,9 +8,9 @@ import Facebook from '../../assets/facebook.svg'
 import './footer.styles.scss'
 
 const Footer = () => (
+    <div>
         <div className="footerDesktop">
             <img src={Logo} alt="Logo in the footer" className="logoFooter"/>
-
             <div className="frame31footerA">
                 {/* --------------------------- FRAME 29 ------------------------------- */}
                 <div className="frame29Footer">
@@ -69,6 +69,34 @@ const Footer = () => (
                 
             </div>
         </div>
+         {/* FOOTER MOBILE */}
+         <div className="frame33Footer">
+            <img src={Logo} alt="" className="logoFooterMobile"/>
+            <div className="frame31FooterMobile">
+                <div className="frame29FooterMobile">
+                    <p className="dekodeASFooterMobile">
+                        Dekode AS
+                    </p>
+                    <p className="telefonFooterMobile">
+                        Tlf: 23 08 00 00
+                    </p>
+                    <p className="epostFooterMobile">
+                        E-post: info@dekode.no
+                    </p>
+                    <p className="adresseFooterMobile">
+                        Tollbugata 11, Oslo
+                    </p>
+                    <p className="postBoksFooterMobile">
+                        Postboks 489 Sentrum, 0105 Oslo 
+                    </p>
+                </div>
+                <div className="frame30FooterMobile">
+
+                </div>
+            </div>
+        </div>
+    </div>
+        
         
 )
 
