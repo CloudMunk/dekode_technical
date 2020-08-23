@@ -848,9 +848,9 @@ $breakpoint-mobile: 799px;
       /* Inside Auto Layout */
       flex: none;
       order: 0;
-      align-self: center;
+      align-self: flex-end;
       margin: 0px 48px;
-      margin-left: 100px;
+      // margin-left: 100px;
    }
    .teftMobile {
       position: static;
@@ -938,5 +938,170 @@ $breakpoint-mobile: 799px;
       order: 4;
       align-self: center;
       margin: 8px 5px;
+   }
+   .headerMobileCircles {
+      position: static;
+      width: 368px;
+      height: 64px;
+      left: 24px;
+      top: 72px;
+      /* H1 mobil */
+      font-family: 'Circular Std';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 64px;
+      /* identical to box height, or 200% */
+      text-align: center;
+      /* Black */
+      color: #262626;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 1;
+      align-self: flex-start;
+      margin: 35px 48px;
+   }
+   .purpleAssociatedMobile {
+      position: static;
+      width: 368px;
+      height: 160px;
+      left: 24px;
+      top: 184px;
+      /* Ingress mobil */
+      font-family: 'Circular Std';
+      font-style: italic;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 32px;
+      /* or 133% */
+      text-align: center;
+      /* Black */
+      color: #262626;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 2;
+      align-self: flex-start;
+      margin: 20px 48px;
+   }
+   .purpleParagraphMobile {
+      position: static;
+      width: 368px;
+      height: 168px;
+      left: 24px;
+      top: 392px;
+      /* Paragraph mobil */
+      font-family: 'Circular Std';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      /* or 150% */
+      /* Black */
+      color: #262626;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 3;
+      align-self: flex-start;
+      margin: 35px 48px;
+   }
+   .frame17Mobile {
+      display: flex;
+      flex-direction: column;
+      padding: 0px;
+      position: absolute;
+      width: 416px;
+      height: 334px;
+      left: 0px;
+      top: 608px;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 4;
+      align-self: center;
+      // margin: 0px 48px;
+   }
+   .group470Mobile {
+      position: static;
+      width: 416px;
+      height: 246px;
+      left: 0px;
+      top: 0px;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 0;
+      align-self: center;
+      margin: 0px 24px;
+   }
+   .group471Mobile {
+      position: absolute;
+      width: 392px;
+      height: 246px;
+      left: 24px;
+      top: 0px;
+   }
+   .ocean1Mobile {
+      position: absolute;
+      width: 392px;
+      height: 246px;
+      left: 24px;
+      top: 0px;
+      border-radius: 0px 8px 8px 0px;
+   }
+   .frame16Mobile {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding: 8px;
+      position: absolute;
+      width: 208px;
+      height: 144px;
+      left: 0px;
+      top: 38px;
+      /* White */
+      background: #FFFFFF;
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.16);
+      border-radius: 8px 0px 0px 8px;
+   }
+   .overlayMobile {
+      position: static;
+      width: 160px;
+      height: 96px;
+      left: 24px;
+      top: 24px;
+      /* Sitat mobil */
+      font-family: 'Roboto Slab';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 24px;
+      /* or 150% */
+      text-align: center;
+      /* Secondary */
+      color: #FF007A;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 0;
+      align-self: center;
+      margin: 10px 0px;
+   }
+   .opticsMobile {
+      position: absolute;
+      width: 368px;
+      height: 64px;
+      left: 24px;
+      top: 270px;
+      /* Bildetekst mobil */
+      font-family: 'Circular Std';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 16px;
+      /* or 133% */
+      /* Black */
+      color: #262626;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 1;
+      align-self: center;
+      margin: 0px 24px;
    }
 }

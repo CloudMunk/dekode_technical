@@ -162,6 +162,8 @@ const Homepage = () => (
                 <p className="whyTeft">Why teft?</p>
             </button>
         </div>
+        
+        {/* MOBILE */}
         <div className="frame14Mobile">
             <div className="frame13Mobile">
                 <p className="teftMobile">teft</p>
@@ -174,6 +176,38 @@ const Homepage = () => (
                     Purple circles
                 </p>
             </div>
+            <h1 className="headerMobileCircles">
+                Purple circles
+            </h1>
+            <p className="purpleAssociatedMobile">
+                Purple is closely associated with violet. In optics, purple and violet refer to 
+                colors that look similar, but purples are mixtures of red and blue or violet light.
+            </p>
+            <p className="purpleParagraphMobile">
+            Purple is closely associated with violet. In common usage, both refer to colors that are 
+            between red and blue in hue, with purples closer to red and violets closer to blue.[5][6] 
+            Similarly, in the traditional painters' color wheel, purple and violet are both placed between 
+            red and blue, with purple is closer to red
+            </p>
+            <div className="frame17Mobile">
+                <div className="group470Mobile">
+                    <div className="group471Mobile">
+                        <img src={Ocean1} alt="" className="ocean1Mobile"/>
+                    </div>
+                    <div className="frame16Mobile">
+                        <p className="overlayMobile">
+                            “The process of making the dye was long, difficult and expensive”
+                        </p>
+                    </div>
+                </div>
+                <p className="opticsMobile">
+                    In optics, violet is a spectral color: It refers to the color of any different 
+                    single wavelength of light on the short wavelength end of the visible spectrum, 
+                    between approximately 380 and 450 nanometers
+                </p>
+            </div>
+
+
         </div>
     </div>
     
