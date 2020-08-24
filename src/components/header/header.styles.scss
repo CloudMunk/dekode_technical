@@ -107,7 +107,6 @@ $breakpoint-mobile: 799px;
         display: flex;
         flex-direction: row;
         padding: 0px;
-        
         position: absolute;
         width: 97px;
         height: 24px;
@@ -146,10 +145,6 @@ $breakpoint-mobile: 799px;
     }
 }
 
-
-
-
-
 // -----------------------------------------------------------------------------
 
 // Mobile
@@ -157,7 +152,6 @@ $breakpoint-mobile: 799px;
     .header {
         display: none;
     }
-
     .headerMobile {
         position: absolute;
         width: 416px;

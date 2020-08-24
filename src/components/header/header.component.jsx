@@ -8,6 +8,7 @@ import './header.styles.scss'
 
 const Header = () => (
     <div>
+        {/* --------------------- Header Desktop ------------------------------- */}
         <div className="header">
         {/* SUB-MENU */}
         <div className="subMenu">
@@ -31,6 +32,7 @@ const Header = () => (
                 <img src={Search} className="searchVector" alt="Search logo Vector"/>
             </div>
     </div>
+        {/* --------------------- Header Mobile ------------------------------- */}
         <div className="headerMobile">
             <div className="rectangleMobile">
                 <img src={HamburgerMobile} alt="" className="hamburgerMobile"/>

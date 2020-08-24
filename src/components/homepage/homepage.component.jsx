@@ -290,6 +290,7 @@ class Homepage extends React.Component {
                             </p>
                         </div>
                     </div>
+                    {/* -------------------------------- FRAME SMALL 33 -------------------------------- */}
                     <div className="frame33Mobile">
                         <div className="frame22Mobile2">
                             <h2 className="teftMobile2">
